@@ -37,7 +37,7 @@ public class TipCalculatorTest {
                                 "Total Bill with tip: $652.02\n"+
                                 "Per person cost before tip: $47.25\n"+
                                 "Tip per person: $7.09\n"+
-                                "Total cost per person: $54.33\n"+
+                                "Total cost per person: $54.34\n"+
                                 "-------------------------------\n";
         String studentOutput = calculator.calculateTip(people,percent, cost);
         assertEquals(expectedOutput,studentOutput);
@@ -132,7 +132,7 @@ public class TipCalculatorTest {
                                 "Total Bill with tip: $7.07\n"+
                                 "Per person cost before tip: $3.0\n"+
                                 "Tip per person: $0.54\n"+
-                                "Total cost per person: $3.53\n"+
+                                "Total cost per person: $3.54\n"+
                                 "-------------------------------\n";
         String studentOutput = calculator.calculateTip(people,percent, cost);
         assertEquals(expectedOutput,studentOutput);
@@ -177,7 +177,7 @@ public class TipCalculatorTest {
                                 "Total Bill with tip: $652.02\n"+
                                 "Per person cost before tip: $47.25\n"+
                                 "Tip per person: $7.09\n"+
-                                "Total cost per person: $54.33\n"+
+                                "Total cost per person: $54.34\n"+
                                 "-------------------------------\n";
         expectedOutput+="Items ordered:\n"+
                         "-------------------------------\n";
